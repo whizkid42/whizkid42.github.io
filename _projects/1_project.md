@@ -79,9 +79,7 @@ The system was tested on an anthropomorphic torso phantom (shown in the video be
 ## Video Demonstration
 
 <div style="max-width: 420px; margin: 1.5rem auto 0;">
-  <div style="position: relative; width: 100%; padding-top: 177.78%;">
-    <iframe src="https://drive.google.com/file/d/1CKYvC6o1VgbYKikvikO2uMMoFu3pPbBj/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Tele-ultrasound robot demo"></iframe>
-  </div>
+  <video src="{{ '/assets/video/tele-ultrasound-demo.mp4' | relative_url }}" poster="{{ '/assets/video/tele-ultrasound-demo.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="Tele-ultrasound robot demo"></video>
 </div>
 <div class="caption">
     Teleoperation demo: the operator drives the haptic master device (bottom) and the 7-DOF arm moves the ultrasound probe over the torso phantom.

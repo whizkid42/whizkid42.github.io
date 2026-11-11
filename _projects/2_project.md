@@ -31,9 +31,7 @@ The phantom is built from three subsystems:
 ### First Prototype: Proving the Concept
 
 <div style="max-width: 760px; margin: 1rem auto 0;">
-  <div style="position: relative; width: 100%; padding-top: 56.25%;">
-    <iframe src="https://drive.google.com/file/d/1YfyGrRKOcMTxJvPWVLearGo1Ffls4TPq/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Breathing phantom first prototype"></iframe>
-  </div>
+  <video src="{{ '/assets/video/breathing-phantom-prototype.mp4' | relative_url }}" poster="{{ '/assets/video/breathing-phantom-prototype.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="Breathing phantom first prototype"></video>
 </div>
 <div class="caption">
     First prototype: the DC air pump inflates and deflates the dome on a sealed enclosure to simulate breathing.

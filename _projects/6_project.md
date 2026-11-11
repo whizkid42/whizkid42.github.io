@@ -63,15 +63,11 @@ I worked on the **lane detection pipeline**, the **Pure Pursuit controller** and
 
 <div class="row mt-3" style="margin-left: 0; margin-right: 0;">
   <div class="col-sm mt-3 mt-md-0">
-    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-      <iframe src="https://drive.google.com/file/d/1TOwfJjhc0EB-UiodbHO5K5hnGZ4JIGC3/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Lane detection"></iframe>
-    </div>
+    <video src="{{ '/assets/video/lane-detection.mp4' | relative_url }}" poster="{{ '/assets/video/lane-detection.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="Lane detection"></video>
     <div class="caption">Lane detection.</div>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-      <iframe src="https://drive.google.com/file/d/1SAy9d9A18S7yIplXt48vNIsV5xc3vcvp/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Final result"></iframe>
-    </div>
+    <video src="{{ '/assets/video/lane-following-final.mp4' | relative_url }}" poster="{{ '/assets/video/lane-following-final.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="Final result"></video>
     <div class="caption">Final result: live lane fit and curve direction in ROS/RViz.</div>
   </div>
 </div>
