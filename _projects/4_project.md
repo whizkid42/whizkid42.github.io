@@ -86,11 +86,11 @@ Obstacles on the floor are hidden from the robot's on-board camera but visible t
 
 <div class="row mt-3" style="margin-left: 0; margin-right: 0;">
   <div class="col-sm mt-3 mt-md-0">
-    <video src="{{ '/assets/video/amr-nav-without-fusion.mp4' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata"></video>
+    <video src="{{ '/assets/video/amr-nav-without-fusion.mp4' | relative_url }}" poster="{{ '/assets/video/amr-nav-without-fusion.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata"></video>
     <div class="caption">Without camera fusion: the robot hits the small obstacles.</div>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <video src="{{ '/assets/video/amr-nav-with-fusion.mp4' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata"></video>
+    <video src="{{ '/assets/video/amr-nav-with-fusion.mp4' | relative_url }}" poster="{{ '/assets/video/amr-nav-with-fusion.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata"></video>
     <div class="caption">With camera fusion: the robot navigates around them cleanly.</div>
   </div>
 </div>

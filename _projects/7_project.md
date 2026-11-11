@@ -61,9 +61,7 @@ Forming sealed internal chambers in cast silicone is usually the hard part. Our 
 - The results confirmed our hypothesis: sugar inserts are a **fast, simple way to make well-formed, durable air chambers** for soft medical devices.
 
 <div style="max-width: 760px; margin: 1.5rem auto 0;">
-  <div style="position: relative; width: 100%; padding-top: 56.25%;">
-    <iframe src="https://drive.google.com/file/d/1ZW-RCV-f2Z-oCyaK1ks2dROaWwjLP6bH/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Toe separator actuation"></iframe>
-  </div>
+  <video src="{{ '/assets/video/toe-separator-actuation.mp4' | relative_url }}" poster="{{ '/assets/video/toe-separator-actuation.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="Toe separator actuation"></video>
 </div>
 <div class="caption">
     Final prototype on the foot: inflating the air chambers pushes the toes apart.

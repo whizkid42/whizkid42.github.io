@@ -65,15 +65,11 @@ Martial arts training usually favours the dominant side, but how differently doe
 
 <div class="row mt-3" style="margin-left: 0; margin-right: 0;">
   <div class="col-sm mt-3 mt-md-0">
-    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-      <iframe src="https://drive.google.com/file/d/11l0uh-I3wlyCi3Utnv7KtgFbUoeCklAP/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Motion capture markers"></iframe>
-    </div>
+    <video src="{{ '/assets/video/taekwondo-mocap-markers.mp4' | relative_url }}" poster="{{ '/assets/video/taekwondo-mocap-markers.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="Motion capture markers"></video>
     <div class="caption">Motion capture marker data.</div>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-      <iframe src="https://drive.google.com/file/d/1R4zOLi4CE9q4NF3fi1aFGezUsWsFuH-d/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="OpenSim simulation"></iframe>
-    </div>
+    <video src="{{ '/assets/video/taekwondo-opensim-ik.mp4' | relative_url }}" poster="{{ '/assets/video/taekwondo-opensim-ik.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="OpenSim simulation"></video>
     <div class="caption">OpenSim inverse kinematics of the punch.</div>
   </div>
 </div>

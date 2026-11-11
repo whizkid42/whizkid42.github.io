@@ -72,9 +72,7 @@ A breathing surface turns force control from a static problem into a **disturban
 ## Video Demonstration
 
 <div style="max-width: 760px; margin: 1rem auto 0;">
-  <div style="position: relative; width: 100%; padding-top: 56.25%;">
-    <iframe src="https://drive.google.com/file/d/1rvI4KMi0EcbTD7PgNjImjTXuLQLPk0os/preview" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" class="rounded z-depth-1" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="Breathing phantom final version"></iframe>
-  </div>
+  <video src="{{ '/assets/video/breathing-phantom-final.mp4' | relative_url }}" poster="{{ '/assets/video/breathing-phantom-final.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" controls muted playsinline preload="metadata" title="Breathing phantom final version"></video>
 </div>
 <div class="caption">
     The 7-DOF arm brings the ultrasound probe onto the breathing surface of the final phantom.
